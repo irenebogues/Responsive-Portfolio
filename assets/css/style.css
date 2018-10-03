@@ -182,3 +182,116 @@ p.separator2 {
     border-bottom: 3px solid#4aaaa5;
 }
 
+/* Apply only to screens at 980*/
+
+@media screen and (max-width: 980px){
+
+    body {
+        width: 100%;
+        display: inline-block;
+       }
+    .row {
+        display: inline-block;
+    }
+
+       .menu {
+        float: none;
+        display: inline-block;
+    }
+    .name {
+        float: none;
+    }
+    .row {
+           float: none;
+       }
+    .horizontal-list {
+    float: none;
+}
+    #about {
+        float: none;
+    }
+    .container{
+        float: none;
+    }
+
+}
+
+
+
+/* Apply only to screens at 768 */
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        display: inline-block
+       }
+
+    .row{
+        display: inline-block;
+    }
+    .menu {
+        float: none;
+    }
+    .name {
+        float: none;
+    }
+    .row {
+           float: none;
+       }
+    .horizontal-list {
+    text-align: justify;
+}
+
+.wrapper {
+    float: none;
+    display: inline;
+}
+    #about {
+        float: none;
+    }
+    .container{
+        float: none;
+    }
+
+}
+
+
+    /* Apply only to screens at 640 */
+
+    @media screen and (max-width: 640px) {
+    body {
+        width: 100%;
+        display: inline-block
+       }
+    
+
+       .row {
+           display: inline-block;
+       }
+    .menu {
+        float: none;
+        text-align: center;
+    }
+    .name {
+        float: none;
+    }
+    .row {
+           float: none;
+       }
+    .horizontal-list {
+    float: none;
+
+}
+.wrapper {
+    display: inline-flex;
+    float:none;
+
+}
+    #about {
+        float: left;
+    }
+    .container {
+        float: none;
+        height: 100%;
+    }
+
+}

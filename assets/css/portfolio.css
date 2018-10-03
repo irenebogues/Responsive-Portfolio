@@ -221,7 +221,6 @@ hr {
 
 
 
-
 /** Styling for footer **/
 
 .footer {
@@ -252,3 +251,85 @@ p.separator2 {
     border-bottom: 3px solid#4aaaa5;
 }
 
+
+/* Apply only to screens at 980*/
+
+@media screen and (max-width: 980px){
+
+    body {
+        width: 100%;
+       }
+    .menu {
+        float: none;
+    }
+    .name {
+        float: none;
+    }
+    .row {
+           float: none;
+       }
+    .horizontal-list {
+    float: none;
+}
+    #about {
+        float: none;
+    }
+    .container{
+        float: none;
+    }
+
+}
+
+
+/* Apply only to screens at 768 */
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+       }
+    .menu {
+        float: none;
+    }
+    .name {
+        float: none;
+    }
+    .row {
+           float: none;
+       }
+    .horizontal-list {
+    float: none;
+}
+    #about {
+        float: none;
+    }
+    .container{
+        float: none;
+    }
+
+}
+
+
+    /* Apply only to screens at 640 */
+
+    @media screen and (max-width: 640px) {
+    body {
+        width: 100%;
+       }
+    .menu {
+    }
+    .name {
+        float: none;
+    }
+    .row {
+           float: none;
+       }
+    .horizontal-list {
+    float: none;
+}
+    #about {
+        float: none;
+    }
+    .container{
+        float: none;
+    }
+
+}
