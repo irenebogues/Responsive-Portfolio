@@ -1,0 +1,202 @@
+/* Style for Body */
+body {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0px;
+    font-size: 100%;
+    background-image: url('https://picsum.photos/1300/800?image=971');
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    overflow: hidden;
+
+
+}
+/* Styling for Navigator Menu*/
+
+.menu {
+
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: -.66%;
+
+}
+
+/* Styling for Name*/
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    width: auto;
+    font-size: 23px;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #4aaaa5;
+    padding: 25px;
+    float: left;
+    margin-left: 14%;
+    margin-right: 40%;
+    margin-bottom: 0%;
+
+}
+
+/* Styling for Buttons*/
+
+
+ul#horizontal-list {
+    min-width: 20px;
+    list-style: none;
+    padding-top: 40px;
+    float: left;
+    overflow: hidden;
+    margin-right: 10%;
+
+}
+
+ul#horizontal-list li {
+    clear: both;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 0%;
+    overflow: hidden;
+}
+
+
+/* unvisited link */
+a:link {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: darkgrey;
+}
+
+/* mouse over link */
+a:hover {
+    color: teal;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+/** Styling for Main Content **/
+
+.wrapper {
+    clear: both;
+    width: 960px;
+    background-color: #fff;
+    padding: 20px;
+    height: 100%;
+    margin-bottom: 40%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+hr {
+    border-color: #ddd;
+    margin-bottom: 10px;
+}
+/* Styling for About Me */
+
+#about {
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: left;
+    width: 960px;
+    margin-bottom: 1%;
+    margin: auto;
+    padding: 25px;
+
+}
+
+
+
+/* Styling for Contact Form */
+
+.container {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkgrey;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0px;
+    height: 50%;
+}
+
+/** Styling for footer **/
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+.container2 {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: .5px;
+    text-align: center;
+    background-color: #666666;
+    color: #fff;
+    line-height: 50%;
+    bottom: 0;
+    padding: 30px;
+    margin-top: 0%;
+}
+
+p.separator2 {
+    width: 100%;
+    border-top: 3px solid #4aaaa5;
+    border-bottom: 3px solid#4aaaa5;
+}
+
