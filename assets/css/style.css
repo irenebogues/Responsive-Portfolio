@@ -184,114 +184,74 @@ p.separator2 {
 
 /* Apply only to screens at 980*/
 
-@media screen and (max-width: 980px){
+@media only screen and (max-width: 980px){
 
     body {
         width: 100%;
-        display: inline-block;
+        display:block;
        }
-    .row {
-        display: inline-block;
-    }
 
-       .menu {
-        float: none;
-        display: inline-block;
+    .row {
+        width: 100%;
+        display: block;
+    .menu {
+        width: 100%;
+        display: block;
+    }
     }
     .name {
-        float: none;
-    }
-    .row {
-           float: none;
-       }
-    .horizontal-list {
-    float: none;
-}
-    #about {
-        float: none;
-    }
-    .container{
-        float: none;
-    }
-
-}
-
-
-
-/* Apply only to screens at 768 */
-@media screen and (max-width: 768px) {
-    body {
         width: 100%;
-        display: inline-block
-       }
-
-    .row{
-        display: inline-block;
-    }
-    .menu {
-        float: none;
-    }
-    .name {
-        float: none;
-    }
-    .row {
-           float: none;
-       }
-    .horizontal-list {
-    text-align: justify;
-}
-
-.wrapper {
-    float: none;
-    display: inline;
-}
-    #about {
-        float: none;
-    }
-    .container{
-        float: none;
-    }
-
-}
-
-
-    /* Apply only to screens at 640 */
-
-    @media screen and (max-width: 640px) {
-    body {
-        width: 100%;
-        display: inline-block
-       }
-    
-
-       .row {
-           display: inline-block;
-       }
-    .menu {
-        float: none;
+        margin: auto;
         text-align: center;
     }
-    .name {
-        float: none;
+    ul#horizontal-list {
+        width: 100%;
+        display: block;
     }
-    .row {
-           float: none;
-       }
-    .horizontal-list {
-    float: none;
-
-}
-.wrapper {
-    display: inline-flex;
-    float:none;
-
-}
-    #about {
-        float: left;
+    .wrapper {
+        width: 100%;
+        display: block; 
     }
     .container {
-        float: none;
-        height: 100%;
+        width: 100%;
+
+    }
     }
 
-}
+
+/* Apply only to screens at 768  and 640 */
+@media only screen and (max-width: 768px) and (max-width: 640px){
+    body {
+        width: 100%;
+        display: block;
+        background-size: cover;
+
+    }
+    .row{
+        width: 100%;
+
+    }
+    .menu {
+        width: 100%;
+        display: block;
+
+    }
+    .name {
+        width: 100%;
+        margin-left; 0%;
+        text-align: center;
+    }
+    .wrapper {
+        width: 100%;
+        display: block;
+    }
+    .footer {
+        width: 100%;
+        height: 10%;
+        display: block;
+
+    }
+}   
+
+
+
