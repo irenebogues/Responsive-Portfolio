@@ -194,11 +194,12 @@ p.separator2 {
     .row {
         width: 100%;
         display: block;
+    }
     .menu {
         width: 100%;
         display: block;
     }
-    }
+    
     .name {
         width: 100%;
         margin: auto;
@@ -208,6 +209,7 @@ p.separator2 {
         width: 100%;
         display: block;
     }
+
     .wrapper {
         width: 100%;
         display: block; 
@@ -227,7 +229,7 @@ p.separator2 {
         background-size: cover;
 
     }
-    .row{
+    .row { 
         width: 100%;
 
     }
@@ -238,7 +240,7 @@ p.separator2 {
     }
     .name {
         width: 100%;
-        margin-left; 0%;
+        margin-left: 0;
         text-align: center;
     }
     .wrapper {
