@@ -223,11 +223,12 @@ p.separator2 {
     .row {
         width: 100%;
         display: block;
+    }
     .menu {
         width: 100%;
         display: block;
     }
-    }
+    
     .name {
         width: 100%;
         margin: auto;
